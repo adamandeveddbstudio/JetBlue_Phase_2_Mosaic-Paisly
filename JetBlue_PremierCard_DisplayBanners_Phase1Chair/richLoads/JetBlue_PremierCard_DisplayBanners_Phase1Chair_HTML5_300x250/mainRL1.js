@@ -37,10 +37,10 @@ function animate() {
   // .to('#card', { scale: 0.9 }, "<")
 
   tl.addLabel('frame4', 12)
-    .to(["#h3, #bgImg, #card, #term"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame4")
+    .to(["#h3, #bgImg, #card, #term, #logo"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame4")
     .to('#h4', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=0.5")
-    .to('#card1', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=1")
-    .to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
+    .to('#logo', 0, { x: -197, y: -2, ease: Power1.easeInOut }, "<")
+    .to('#card1,#cta,#logo', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=1")
     .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '450px 0px' });
 
 }
