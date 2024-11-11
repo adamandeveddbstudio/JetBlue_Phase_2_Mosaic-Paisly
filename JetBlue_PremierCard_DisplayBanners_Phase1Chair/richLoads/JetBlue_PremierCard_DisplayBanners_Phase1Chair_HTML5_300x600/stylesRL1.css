@@ -21,7 +21,7 @@ video {
 #main_container {
   position: absolute;
   background-color: #000064;
-  /* border: 1px solid #000000; */
+  border: 1px solid #000000;
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -84,18 +84,30 @@ video {
   font-family: "ESKlarheitGrotesk Xbd";
   width: 100%;
   left: 34px;
-  top: 85px;
+  bottom: 397px;
+}
 
+#text_holder span {
+  color: #00e1ff;
+}
+
+#text_holder sup {
+  position: absolute;
+  font-size: 9px;
+  transform: translate(0px, 0px);
+}
+
+#h1 span {
+  font-size: 24.7px;
 }
 
 #h1 {
   font-size: 25px;
-  line-height: 31.4px;
-  top: 1px;
+  line-height: 31.5px;
+  bottom: 3px;
 }
 
 #h1 span {
-  color: #00e1ff;
   font-size: 36.5px;
   line-height: 37px;
   margin-top: 1.5px;
@@ -103,25 +115,22 @@ video {
   margin-left: -2px;
 }
 
-#h2 {
-  font-size: 31.5px;
-  line-height: 36.5px;
-  top: 3px;
-}
-
-#h2 span {
-  color: #00e1ff;
+#h2,
+#h3 {
+  font-size: 27px;
+  line-height: 1.15;
+  letter-spacing: -0.6px;
+  bottom: 0px;
 }
 
 #h3 {
-  font-size: 31px;
-  line-height: 38.8px;
-  top: 3px;
-  /* left: 15px; */
+  line-height: 1.19;
 }
 
-#h3 span {
-  color: #00e1ff;
+#h4 {
+  font-size: 31px;
+  line-height: 38.8px;
+  bottom: -13px;
 }
 
 #endframeBg {
@@ -133,9 +142,9 @@ video {
 }
 
 #term {
-  top: 435px;
-  left: 199px;
-  font-size: 10px;
+  top: 377px;
+  left: 191px;
+  font-size: 12px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
 }
@@ -149,7 +158,7 @@ video {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 13px;
-  top: 274px;
+  top: 253px;
   left: 35px;
   display: flex;
   align-items: center;
@@ -160,20 +169,27 @@ video {
   bottom: 36px;
   left: 33px;
   width: 118px;
+  filter: drop-shadow(0px 0px 4px #5a5a5a);
 }
 
-#bg {
+#bgImg {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#card {
   width: 225px;
-  top: 290px;
+  top: 230px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 #card1 {
-  top: 350px;
+  top: 329px;
   left: 35px;
   min-width: 224px;
-  min-height: 600px;
+  min-height: 142px;
   background-image: url(./images/card_new.png);
   background-size: contain;
   position: absolute;
@@ -183,8 +199,9 @@ video {
 #shine1 {
   width: 300px;
   height: 600px;
+  top: -19px;
   background-image: url(./images/shine.png);
-  background-size: 200px;
+  background-size: 190px;
   background-position: -160px 175px;
   background-repeat: no-repeat;
   position: absolute;

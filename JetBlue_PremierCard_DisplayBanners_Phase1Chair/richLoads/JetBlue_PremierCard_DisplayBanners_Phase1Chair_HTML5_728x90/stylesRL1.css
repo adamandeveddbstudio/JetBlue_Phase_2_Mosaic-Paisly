@@ -90,30 +90,43 @@ video {
   letter-spacing: -0.5px;
 }
 
-#h1 span {
+#text_holder span {
   color: #00e1ff;
+}
+
+#text_holder sup {
+  position: absolute;
+  font-size: 9px;
+  transform: translate(0px, 2px);
+}
+
+#h1 {
+  width: 400px
+}
+
+#h1 div {
   font-size: 32px;
-  letter-spacing: -1px;
+  letter-spacing: -0.75px;
 }
 
 #h2 {
-  font-size: 24.6px;
-  /* top: 6px; */
-}
-
-#h2 span {
-  color: #00e1ff;
+  font-size: 30px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  top: 2px;
 }
 
 #h3 {
-  font-size: 24.7px;
-  /* top: 8.6px; */
-  line-height: 25px;
-  top: 8px;
+  font-size: 23px;
+  letter-spacing: -0.3px;
+  line-height: 1.3;
+  top: 3px;
 }
 
-#h3 span {
-  color: #00e1ff;
+#h4 {
+  font-size: 24.7px;
+  line-height: 25px;
+  top: 8px;
 }
 
 #endframeBg {
@@ -154,7 +167,7 @@ video {
   width: 68px;
 }
 
-#bg {
+#card {
   width: 84px;
   top: 12px;
   left: 445px;
@@ -177,9 +190,9 @@ video {
   width: 728px;
   height: 90px;
   background-image: url(./images/shine.png);
-  background-size: contain;
-  background-position: 410px 0px;
-  /* background-repeat: no-repeat; */
+  background-size: 70%;
+  background-position: 430px 5px;
+  background-repeat: no-repeat;
   position: absolute;
   mix-blend-mode: soft-light;
   -webkit-mask-image: url(./images/endCard.png);

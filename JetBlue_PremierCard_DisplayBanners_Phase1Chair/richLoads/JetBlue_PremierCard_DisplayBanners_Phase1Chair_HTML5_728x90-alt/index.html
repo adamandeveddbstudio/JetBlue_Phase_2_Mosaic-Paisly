@@ -8,47 +8,46 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <meta name="ad.size" content="width=300,height=600" />
-
+    <meta name="ad.size" content="width=728,height=90" />
+  
     <link rel="stylesheet" type="text/css" href="stylesRL1.css" />
 
     <script 
-      type="text/javascript" 
+      type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js">
     </script>
 
     <title></title>
   </head>
 
-  <body>
+  <body onload="init()">
     <div id="main_container">
       <!--start main_container-->
-
       <div id="main_content" class="">
         <!--start main_content-->
-
-        <img src="./images/bgImg.jpg" id="bgImg">
         <img src="./images/card_new.png" id="card">
-  
+    
+
         <div id="card_animation">
 					<div id="card1" class="hidden"></div>
 					<div id="shine1" class="hidden"></div>
 				</div>
-
         <div id="term" class="hidden">Terms Apply</div>
 
         <div id="text_holder">
-          <div id="h1">Introducing<br>the all-new<br><span>JetBlue<br>Premier Card</span>.</div>
-          <div id="h2" class="hidden">Enjoy <span>Priority Pass <sup>TM</sup> <br> Select lounge <br>access</span>.</div>
-          <div id="h3" class="hidden">Up to <span>$300 Paisly <br>credit </span>toward <br>cars, stays<br>and more.</div>
-          <div id="h4" class="hidden">Reach a new<br>altitude with<br>the <span>JetBlue<br>Premier Card</span>.</div>
+          <div id="h1">Introducing the all-new<br><div><span>JetBlue Premier Card</span>.</div></div>
+          <div id="h2" class="hidden">Enjoy <span>Priority Pass <sup>TM</sup>&nbsp;&nbsp; Select<br>lounge access</span>.</div>
+          <div id="h3" class="hidden">Up to <span>$300 Paisly credit </span><br>toward cars, stays and more.</div>
+          <div id="h4" class="hidden">Reach a new altitude with<br>the <span>JetBlue Premier Card</span>.</div>
         </div>
         <img id="logo" src="./images/logo.svg" class="" />
         <div id="cta" class="hidden">Apply Now</div>
-        <div id="endframeBg"></div>  
+        <div id="endframeBg"></div>
+        <!--end main_content-->
       </div>
 
       <div id="default_exit" class="btn" ></div>
+
       <!--end main_container-->
     </div>
     <script type="text/javascript" src="mainRL1.js"></script>
