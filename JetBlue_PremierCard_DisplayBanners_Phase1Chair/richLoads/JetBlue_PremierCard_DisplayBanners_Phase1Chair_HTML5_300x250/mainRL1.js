@@ -41,7 +41,7 @@ function animate() {
     .to('#h4', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=0.5")
     .to('#logo', 0, { x: -197, y: -2, ease: Power1.easeInOut }, "<")
     .to('#card1,#cta,#logo', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=1")
-    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '450px 0px' });
+    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '230px 50px' });
 
 }
 
