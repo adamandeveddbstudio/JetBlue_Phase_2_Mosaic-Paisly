@@ -5,7 +5,7 @@ FT.manifest({
   "clickTagCount": 1,
   "hideBrowsers": ["ie8"],
   "richloads": [
-   {"name":"main_rl", "src":"JetBlue_PremierCard_DisplayBanners_Phase1Chair_HTML5_300x250"}
+   {"name":"main_rl", "src":"JetBlue_PremierCard_DisplayBanners_Phase1Boat_HTML5_300x250"}
  ],
   "instantAds": [
       {"name":"main_rl",          "type":"richload"}, 
