@@ -39,7 +39,7 @@ function animate() {
     .to(["#h3, #bgImg, #card, #term, #logo"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame4")
     .to('#h4', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=0.5")
     .to('#card1,#cta,#logo', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=1")
-    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '230px 50px' });
+    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '600px 5px' });
 
 }
 

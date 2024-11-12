@@ -83,7 +83,8 @@ video {
   color: #fff;
   font-family: "ESKlarheitGrotesk Xbd";
   width: 100%;
-  left: 115px;
+  /* left: 115px; */
+  left: 98px;
   top: 12px;
   font-size: 22px;
   line-height: 31.5px;
@@ -153,7 +154,8 @@ video {
 
 #term {
   top: 71.5px;
-  right: 93px;
+  /* right: 93px; */
+  right: 112px;
   font-size: 9.3px;
   color: #ffffff;
   font-family: "KlarheitGroteskBook", sans-serif;
@@ -177,7 +179,8 @@ video {
 
 #logo {
   bottom: 32px;
-  right: 6px;
+  /* right: 6px; */
+  right: 18px;
   width: 76px;
 }
 
@@ -189,7 +192,8 @@ video {
 #card {
   width: 97px;
   top: 11px;
-  right: 91px;
+  /* right: 91px; */
+  right: 109px;
 }
 
 #card1 {
@@ -209,9 +213,9 @@ video {
   width: 728px;
   height: 90px;
   background-image: url(./images/shine.png);
-  background-size: contain;
-  background-position: 410px 0px;
-  /* background-repeat: no-repeat; */
+  background-size: 70%;
+  background-position: 430px 5px;
+  background-repeat: no-repeat;
   position: absolute;
   mix-blend-mode: soft-light;
   -webkit-mask-image: url(./images/mask.png);
