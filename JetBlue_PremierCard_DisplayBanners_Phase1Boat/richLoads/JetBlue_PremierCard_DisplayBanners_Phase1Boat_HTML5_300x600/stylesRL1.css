@@ -121,6 +121,12 @@ video {
 #h2 span{
   color: #000064;
 }
+#h2 .astrick{
+  font-size: 8px;
+  position: absolute;
+  margin-top: -14px;
+  margin-left: -3px;
+}
 #text_holder sup {
   position: absolute;
   font-size: 8px;
