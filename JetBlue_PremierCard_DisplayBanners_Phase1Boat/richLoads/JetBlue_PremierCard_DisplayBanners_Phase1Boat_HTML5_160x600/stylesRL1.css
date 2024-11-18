@@ -92,7 +92,7 @@ video {
   top: 76px;
   font-size: 16.7px;
   line-height: 22.5px;
-  letter-spacing: 0.1px;
+  /* letter-spacing: 0.1px; */
   text-align: center;
 }
 
@@ -116,6 +116,7 @@ video {
   top: 57px;
   font-size: 17px;
   line-height: 22px;
+  letter-spacing: -0.1px;
 }
 
 #h2 span {

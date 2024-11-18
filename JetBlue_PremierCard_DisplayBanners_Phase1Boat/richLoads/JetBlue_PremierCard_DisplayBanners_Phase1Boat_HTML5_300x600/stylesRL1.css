@@ -114,7 +114,7 @@ video {
   display: inline-block;
   margin-top: 5px;
   line-height: 37.5px;
-  letter-spacing: -0.2px;
+  /* letter-spacing: -0.1px; */
 }
 
 
@@ -122,6 +122,7 @@ video {
   top: 13px;
   font-size: 26px;
   line-height: 32px;
+  letter-spacing: -0.1px;
 }
 #h2 span{
   color: #000064;

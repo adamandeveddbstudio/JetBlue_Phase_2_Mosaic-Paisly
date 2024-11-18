@@ -92,7 +92,7 @@ video {
   top: 21px;
   font-size: 18.3px;
   line-height: 25.5px;
-  letter-spacing: 0.1px;
+  /* letter-spacing: 0.1px; */
 }
 
 #text_holder span {
@@ -116,6 +116,7 @@ video {
   left: 7px;
   line-height: 23.7px;
   top: 0px;
+  letter-spacing: -0.1px;
 }
 #h2 .astrick{
   /* font-size: 8.5px;
