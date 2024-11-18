@@ -77,6 +77,12 @@ video {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "RobotoBlack";
+  src: url("./fonts/Roboto-Black.woff");
+  font-weight: bolder;
+}
+
 /* Text */
 
 #text_holder {
@@ -96,8 +102,9 @@ video {
 
 #text_holder sup {
   position: absolute;
-  font-size: 8px;
+  font-size: 8.5px;
   transform: translate(-7px, -9px);
+  font-family: 'RobotoBlack';
 }
 
 #h1 span {
