@@ -117,11 +117,18 @@ video {
   color: #000064;
 }
 
-#h2 sup {
+#h2 .astrick {
+  /* font-size: 7.5px;
   position: absolute;
-  font-size: 7px;
   margin-top: -9px;
+  margin-left: -1px; */
+
+  font-size: 7.5px;
+  position: absolute;
+  margin-top: -8px;
   margin-left: -1px;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
 }
 
 #h3 {
@@ -137,9 +144,9 @@ video {
 }
 
 #h3 .astrick {
-  font-size: 12px;
+  font-size: 11px;
   position: absolute;
-  margin-top: -6px;
+  margin-top: -6.7px;
   margin-left: -5px;
 }
 
