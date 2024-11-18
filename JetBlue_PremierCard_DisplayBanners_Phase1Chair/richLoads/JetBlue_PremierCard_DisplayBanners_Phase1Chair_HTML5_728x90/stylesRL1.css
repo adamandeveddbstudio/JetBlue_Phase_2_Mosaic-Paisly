@@ -155,7 +155,7 @@ video {
   text-align: center;
   font-size: 10px;
   top: 26px;
-  left: 385px;
+  left: 375px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,7 +164,7 @@ video {
 #logo {
   bottom: 34px;
   right: 30px;
-  width: 68px;
+  width: 90px;
   filter: drop-shadow(0px 0px 3px #464646);
 }
 
@@ -176,7 +176,7 @@ video {
 
 #card1 {
   top: 11px;
-  left: 508px;
+  left: 488px;
   width: 97px;
   height: 61px;
   background-image: url(./images/card_new.png);
@@ -187,7 +187,7 @@ video {
 
 #shine1 {
   top: 5px;
-  left: -12px;
+  left: -32px;
   width: 728px;
   height: 90px;
   background-image: url(./images/shine.png);
