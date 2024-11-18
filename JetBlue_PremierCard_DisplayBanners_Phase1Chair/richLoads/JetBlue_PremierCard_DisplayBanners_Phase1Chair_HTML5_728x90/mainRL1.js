@@ -30,15 +30,15 @@ function animate() {
     .to('#h2', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame2+=0.5")
     .to('#term', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "<")
 
-  tl.addLabel('frame3', 8)
-    .to('#h2', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3')
-    .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=0.5")
+  // tl.addLabel('frame3', 8)
+  //   .to('#h2', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3')
+  //   .to('#h3', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame3+=0.5")
 
-  tl.addLabel('frame4', 12)
-    .to(["#h3, #card, #term"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame4")
-    .to('#h4', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=0.5")
-    .to('#card1,#cta', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=1")
-    .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '600px 5px' });
+  // tl.addLabel('frame4', 12)
+  //   .to(["#h3, #card, #term"], 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, "frame4")
+  //   .to('#h4', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=0.5")
+  //   .to('#card1,#cta', 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, "frame4+=1")
+  //   .to('#shine1', 1, { autoAlpha: 1, backgroundPosition: '600px 5px' });
 
 }
 
