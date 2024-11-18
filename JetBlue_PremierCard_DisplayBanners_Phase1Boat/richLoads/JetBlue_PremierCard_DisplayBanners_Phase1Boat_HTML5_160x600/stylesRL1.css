@@ -118,10 +118,17 @@ video {
 }
 
 #h2 .astrick {
-  font-size: 7.5px;
+  /* font-size: 7.5px;
   position: absolute;
   margin-top: -9px;
+  margin-left: -1px; */
+
+  font-size: 7.5px;
+  position: absolute;
+  margin-top: -8px;
   margin-left: -1px;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
 }
 
 #h3 {

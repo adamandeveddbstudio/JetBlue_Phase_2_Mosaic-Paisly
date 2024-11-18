@@ -122,10 +122,17 @@ video {
   color: #000064;
 }
 #h2 .astrick{
-  font-size: 8px;
+  /* font-size: 8px;
+  position: absolute;
+  margin-top: -14px;
+  margin-left: -3px; */
+
+  font-size: 9px;
   position: absolute;
   margin-top: -14px;
   margin-left: -3px;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
 }
 #text_holder sup {
   position: absolute;
