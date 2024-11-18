@@ -99,8 +99,8 @@ video {
 
 #text_holder sup {
   position: absolute;
-  font-size: 12px;
-  transform: translate(-5px, -4px);
+  font-size: 9px;
+  transform: translate(-3px, 0px);
   font-family: 'RobotoBlack';
   letter-spacing: 0.2px;
 }
